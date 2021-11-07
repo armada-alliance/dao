@@ -2,6 +2,10 @@
 
 * [Armada DAO](README.md)
 
-## Governance
+## 👥 Governance
 
-* [AAIP](governance/aaip.md)
+* [👾 AAIP](governance/aaip.md)
+
+## 🪙 Tokenomics
+
+* [Doubloons](tokenomics/doubloons.md)
