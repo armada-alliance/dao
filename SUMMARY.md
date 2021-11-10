@@ -12,7 +12,7 @@
 
 ## Tokenomics
 
-* [🪙 Clam Token](tokenomics/doubloons.md)
+* [🪙 Clam Token](tokenomics/clam.md)
 
 ## Treasury
 
