@@ -12,13 +12,13 @@
 
 ## Tokenomics
 
-* [🪙 Clam Token](tokenomics/clam.md)
+* [🪙 Clam Token](tokenomics/doubloons.md)
 
 ## Treasury
 
-* [🛠 Services](treasury/services.md)
 * [💸 Funding](treasury/funding.md)
 * [💰 Delegation](treasury/delegation.md)
+* [🛠 Services](treasury/services.md)
 
 ## Smart Contracts
 
