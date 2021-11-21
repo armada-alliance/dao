@@ -1,8 +1,8 @@
 # Governance Protocol
 
-## On-chain governance
+## On-chain governance:
 
-Vote on AAIPs via the voting portal, the methodology is still being researched and more research to be done on how to use “on-chain” voting or even smart contracts.
+Vote on AAIPs via the voting portal on our dedicated armada DAO website for governance. The idea is the user logs into their armada user accounts using the Nami wallet feature developed by BERRY pool. The governance site will be a DApp that will connect to Nami via its DApp connector to allow for a smart contract-based voting system like in AAVE and Maker DAO where the user essentially “locks” up their governance tokens on the various Polls or AAIPs for an epoch until voting ends.
 
 ## Off-chain governance:
 
