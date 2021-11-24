@@ -6,14 +6,14 @@
 
 ## Governance
 
-* [Governance Protocol](governance/governance-protocol/README.md)
-  * [👾 AAIP](governance/governance-protocol/aaip.md)
+* [Governance Protocol](governance/governance-protocol.md)
+  * [👾 AAIP](governance/aaip.md)
   * [📊 Polling](governance/governance-protocol/polling.md)
-  * [🗳 Voting](governance/governance-protocol/voting.md)
+  * [🗳 Voting](governance/voting.md)
 
 ## Tokenomics
 
-* [🪙 Clam Token](tokenomics/doubloons.md)
+* [🪙 Governance Token](tokenomics/govtoken.md)
 
 ## Treasury
 
