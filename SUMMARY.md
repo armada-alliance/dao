@@ -6,9 +6,10 @@
 
 ## Governance
 
-* [Governance Protocol](governance/governance-protocol.md)
-* [👾 AAIP](governance/aaip.md)
-* [🗳 Voting](governance/voting.md)
+* [Governance Protocol](governance/governance-protocol/README.md)
+  * [👾 AAIP](governance/governance-protocol/aaip.md)
+  * [📊 Polling](governance/governance-protocol/polling.md)
+  * [🗳 Voting](governance/governance-protocol/voting.md)
 
 ## Tokenomics
 
