@@ -1,4 +1,4 @@
-# 🏴☠ Armada DAO
+# Armada DAO 🏴‍☠️
 
 _**Armada Alliance Decentralized Autonomous Organization**_
 
