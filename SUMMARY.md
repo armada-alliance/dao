@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [🏴☠ Armada DAO](README.md)
+* [Armada DAO 🏴‍☠️](README.md)
 
 ## Governance
 
