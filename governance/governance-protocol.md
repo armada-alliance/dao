@@ -6,7 +6,7 @@ In this section we will discuss the various aspects of the Armada DAO's governan
 
 ## Account Identification for DAO members
 
-You may be asking yourself, "how will the Armada DAO distinguish between members and non-members?", "will they be using some NFTs or ATALA prism?", and the answer is that the DAO will use a special Nami wallet feature developed by one of the DAO members Pascal from BERRY pool. What this feature will do is provide us with a easy way to  
+ 
 
 ## Off-chain governance:
 
