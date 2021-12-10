@@ -5,8 +5,9 @@
 Vote on AAIPs via the voting portal on our dedicated armada DAO website for governance. The idea is the user logs into their armada user accounts using the Nami wallet feature developed by BERRY pool. The governance site will be a DApp that will connect to Nami via its DApp connector to allow for a smart contract-based voting system like in AAVE and Maker DAO where the user essentially “locks” up their governance tokens on the various Polls or AAIPs for an epoch until voting ends.
 
 Currently the two main on-chain governance mechanisms are:
-	1) Polls - where the user votes on a specific AAIP or AAIPs that do not change or alter the codebase of the Armada Alliance website, tutorials, or DAO. These AAIPs fall under the category of “Standard" or "Informational". The Polls are simple and will be on-chain but will be in the form of a smart contract and apply a simple majority rule to determine the outcome of the Polls.
-	2) Voting - only proposals made in the intention of changing the codebase of the Armada Alliance website, tutorials, or DAO there is a need to have a more stringent protcol for voting. We will discuss how the voting system will be implemented in the future.
+
+1. Polls - where the user votes on a specific AAIP or AAIPs that do not change or alter the codebase of the Armada Alliance website, tutorials, or DAO. These AAIPs fall under the category of “Standard" or "Informational". The Polls are simple and will be on-chain but will be in the form of a smart contract and apply a simple majority rule to determine the outcome of the Polls.
+2. Voting - only proposals made in the intention of changing the codebase of the Armada Alliance website, tutorials, or DAO there is a need to have a more stringent protcol for voting. We will discuss how the voting system will be implemented in the future.
 
 ## Off-chain governance:
 
