@@ -8,7 +8,9 @@ The Armada DAO will require a governance token to be used for voting on various 
 
 Current Ideas are as follows:&#x20;
 
-Max Supply = infinite Initial circulation = 1.0 X 10^6&#x20;
+Max Supply = infinite&#x20;
+
+Initial circulation = 1.0 X 10^6&#x20;
 
 The initial circulation will be distributed to all eligible participants (AA-delegators/SPOs) as follows:
 
