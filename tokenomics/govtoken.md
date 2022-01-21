@@ -56,3 +56,5 @@ $$T = 0^a *\ y^b = 0\\T = x^a *\ 0 = 0$$
 Putting it all together we would have a piecewise function:
 
 $$T=\begin{cases}T_{operator} & x=\ 0\\ T_{delegator} & x=\ 1 \\ \end{cases}$$
+
+Where x is 0 if the person minting is an operator, and 1 if the person minting is a delegator.
