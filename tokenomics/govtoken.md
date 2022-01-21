@@ -29,10 +29,10 @@ Minting distribution formula should essentially release new tokens every epoch t
 
 It would be similar to a Cobb-Douglas utility function:
 $$
-T = x^a y^b
+T_{operator} = x^a y^b
 $$
 Where 
-$$T = {token\ supply},\ x = delegators,\ y = pledge ,\ a = epoch,\ b = blocks$$
+$$T = {token\ supply},\ x = delegators,\ y = pledge ,\ a = number\ of\ epochs,\ b = blocks$$
 
 If the pledge is equal to zero you will get no tokens:
 $$T = x^a *\ 0 = 0$$
@@ -42,3 +42,17 @@ $$T = x^a *\ y^0 = x^a$$
 
 If you have zero delegates then the equation becomes:
 $$T = x^0 *\ y^b = y^b$$
+
+Then for the delegators:
+
+$$T_{delegator} = x^a y^b$$
+
+Where
+$$ T = {token\ supply},\ x = stake,\ y = loyalty, \ a = number\ of\ epochs,\ b = blocks$$
+
+If loyalty or stake is equal to zero you will get no tokens:
+$$T = 0^a *\ y^b = 0\\T = x^a *\ 0 = 0$$
+
+Putting it all together we would have a piecewise function:
+
+$$T=\begin{cases}T_{operator} & x=\ 0\\ T_{delegator} & x=\ 1 \\ \end{cases}$$
