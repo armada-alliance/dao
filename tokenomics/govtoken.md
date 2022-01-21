@@ -6,27 +6,20 @@ description: Clam Token 🦪
 
 The Armada DAO will require a governance token to be used for voting on various AAIP’s/Treasury matters and there must be a framework around the primary distribution of tokens and the ability to mint or burn new tokens.&#x20;
 
-Current Ideas are as follows:&#x20;
 
-Max Supply = infinite&#x20;
+Current plan is as follows:&#x20;
 
-Initial circulation = 1.0 X 10^6&#x20;
+$$\text{Max Supply} = \infty$$&#x20;
 
-The initial circulation will be distributed to all eligible participants (AA-delegators/SPOs) as follows:
+$$\text{Initial circulation} = 1.0 * 10^6$$&#x20;
 
-&#x20;SPOs - 49%&#x20;
+The initial circulation will be distributed to all eligible participants (AA-delegators/SPOs) as follows:&#x20;
 
-Delegates - 49%&#x20;
+$$\text{Delegators} = 1,000,000 * 0.49 = 490,000$$&#x20;
 
-Founders - 2%&#x20;
+$$\text{SPOs} = 1,000,000 * 0.49 = 490,000$$&#x20;
 
-Initial Supply breakdown:&#x20;
-
-Delegators: 1,000,000 x 49% = 490,000&#x20;
-
-SPOs: 1,000,000 x 49% = 490,000&#x20;
-
-Founders: 1,000,000 x 2% = 20,000&#x20;
+$$\text{Founders} = 1,000,000 * 0.02 = 20,000$$&#x20;
 
 The “founders team” are members of the alliance who maintain financing, keys/passwords, website/Github, and legally own the armada DAO LLC. In order to replace the founders would require exceptional effort via some sort of repeal process we have not thought of yet, or the other way would be in the case of incapacitation from doing their duties to personal emergencies or death.
 
