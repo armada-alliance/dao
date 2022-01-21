@@ -4,11 +4,11 @@
 
 ### Introduction
 
-Before we begin, I want to inform the reader that this is just a rough outline of the proposal and is actively being worked on.
+Before we begin, I want to inform the reader that this is just a rough outline of the proposal and is actively being worked on.&#x20;
 
-This proposal is intended to help develop a sustainable and fair treasury delegation model for the Armada Alliance and its members. You may ask what is the alliance treasury delegation model? And why is this important to the alliance?
+This proposal is intended to help develop a sustainable and fair treasury delegation model for the Armada Alliance and its members.&#x20; You may ask what is the alliance treasury delegation model? And why is this important to the alliance?&#x20;
 
-We at the Armada Alliance have decided to take on the challenge of getting small pools their first blocks, increasing active stake, and meeting pledge requirements for IOG and Cardano Foundation. In order to do this, we have decided to create our own fund or treasury that will be used to delegate to our alliance pools in a fair and meaningful way.
+We at the Armada Alliance have decided to take on the challenge of getting small pools their first blocks, increasing active stake, and meeting pledge requirements for IOG and Cardano Foundation.&#x20; In order to do this, we have decided to create our own fund or treasury that will be used to delegate to our alliance pools in a fair and meaningful way.&#x20;
 
 ### Methodology
 
