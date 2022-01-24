@@ -4,57 +4,48 @@ description: Clam Token 🦪
 
 # 🪙 Governance Token
 
-The Armada DAO will require a governance token to be used for voting on various AAIP’s/Treasury matters and there must be a framework around the primary distribution of tokens and the ability to mint or burn new tokens.&#x20;
+The Armada DAO will require a governance token to be used for voting on various AAIP’s/Treasury matters and there must be a framework around the primary distribution of tokens and the ability to mint or burn new tokens.
 
+Current plan is as follows:
 
-Current plan is as follows:&#x20;
+$$\text{Max Supply} = \infty$$
 
-$$\text{Max Supply} = \infty$$&#x20;
+$$\text{Initial circulation} = 1.0 * 10^6$$
 
-$$\text{Initial circulation} = 1.0 * 10^6$$&#x20;
+The initial circulation will be distributed to all eligible participants (AA-delegators/SPOs) as follows:
 
-The initial circulation will be distributed to all eligible participants (AA-delegators/SPOs) as follows:&#x20;
+$$\text{Delegators} = 1,000,000 * 0.49 = 490,000$$
 
-$$\text{Delegators} = 1,000,000 * 0.49 = 490,000$$&#x20;
+$$\text{SPOs} = 1,000,000 * 0.49 = 490,000$$
 
-$$\text{SPOs} = 1,000,000 * 0.49 = 490,000$$&#x20;
+$$\text{Founders} = 1,000,000 * 0.02 = 20,000$$
 
-$$\text{Founders} = 1,000,000 * 0.02 = 20,000$$&#x20;
+The “founders team” are members of the alliance who maintain financing, keys/passwords, website/Github, and legally own the armada DAO LLC. In order to replace the founders would require exceptional effort via some sort of repeal process we have not thought of yet, or the other way would be in the case of incapacitation from doing their duties to personal emergencies or death.
 
-The “founders team” are members of the alliance who maintain financing, keys/passwords, website/Github, and legally own the armada DAO LLC.&#x20; In order to replace the founders would require exceptional effort via some sort of repeal process we have not thought of yet, or the other way would be in the case of incapacitation from doing their duties to personal emergencies or death.&#x20;
+Following the airdrop of the initial supply of the governance token, the minting and or burning of new tokens will be handled by the “armada mint” smart contract. The smart contract is going to execute the minting of new governance tokens automatically based on the conditions we have set and the “minting distribution formula” will determine the amount released per year. Due to the inflationary aspect of this setup, we can increase/decrease the max supply by voting to mint/burn tokens or by changing the minting distribution formula. After the mint releases the total amount of new supply, it will then be distributed automatically to all eligible participants. The number of tokens given to each participant will depend on if they are an SPO, founder, or delegator. This is because SPOs are needed to have increased incentives to maintain their pools, pay the membership fees, and other costs associated with operating a stake pool they will get a marginal benefit per release of new tokens (formulas coming soon). But the rate of return will diminish after a certain number of epochs, delegators, pledge amount, and active stake.
 
-Following the airdrop of the initial supply of the governance token, the minting and or burning of new tokens will be handled by the “armada mint” smart contract.&#x20; The smart contract is going to execute the minting of new governance tokens automatically based on the conditions we have set and the “minting distribution formula” will determine the amount released per year.&#x20; Due to the inflationary aspect of this setup, we can increase/decrease the max supply by voting to mint/burn tokens or by changing the minting distribution formula. After the mint releases the total amount of new supply, it will then be distributed automatically to all eligible participants.&#x20; The number of tokens given to each participant will depend on if they are an SPO, founder, or delegator.&#x20; This is because SPOs are needed to have increased incentives to maintain their pools, pay the membership fees, and other costs associated with operating a stake pool they will get a marginal benefit per release of new tokens (formulas coming soon).&#x20; But the rate of return will diminish after a certain number of epochs, delegators, pledge amount, and active stake.&#x20;
+Minting distribution formula should essentially release new tokens every epoch to all delegates and operators based on their specific variables that I have described earlier:
 
-Minting distribution formula should essentially release new tokens every epoch to all delegates and operators based on their specific variables that I have described earlier:&#x20;
+It would be similar to a Cobb-Douglas utility function:
 
-It would be similar to a Cobb-Douglas utility function:&#x20;
 $$
 T_{operator} = x^a y^b
 $$
+
 Where,&#x20;
+
 $$T = {token\ supply},\ x = delegators,\ y = pledge ,\ a = number\ of\ epochs,\ b = blocks$$
 
-If the pledge is equal to zero you will get no tokens:&#x20;
-$$T = x^a *\ 0 = 0$$
+Then for the delegators:
 
-If you have zero blocks then the equation becomes:&#x20;
-$$T = x^a *\ y^0 = x^a$$
+&#x20;                                                                 $$T_{delegator} = x^a y^b$$
 
-If you have zero delegates then the equation becomes:&#x20;
-$$T = x^0 *\ y^b = y^b$$
+Where,
 
-Then for the delegators:&#x20;
+&#x20;$$T = {token\ supply},\ x = stake,\ y = loyalty, \ a = number\ of\ epochs,\ b = blocks$$
 
-$$T_{delegator} = x^a y^b$$
-
-Where,&#x20;
-$$ T = {token\ supply},\ x = stake,\ y = loyalty, \ a = number\ of\ epochs,\ b = blocks$$
-
-If loyalty or stake is equal to zero you will get no tokens:&#x20;
-$$T = 0^a *\ y^b = 0\\T = x^a *\ 0 = 0$$
-
-Putting it all together we would have a piecewise function:&#x20;
+Putting it all together we would have a piecewise function:
 
 $$T=\begin{cases}T_{operator} & x=\ 0\\ T_{delegator} & x=\ 1 \\ \end{cases}$$
 
-Where x is 0 if the person minting is an operator, and 1 if the person minting is a delegator.&#x20;
+Where x is 0 if the person minting is an operator, and 1 if the person minting is a delegator.
